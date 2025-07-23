@@ -5,6 +5,8 @@ import ImageSlider from "./components/ImageSlider"
 import LoadMore from "./components/LoadMore"
 import TreeView from "./components/treeview/TreeView"
 import SideMenu from "./components/treeview/data"
+import QRGenerator from "./components/QRGenerato"
+
 function App() {
 
   return (
@@ -14,7 +16,8 @@ function App() {
       {/* <StarRating/> */}
       {/* <ImageSlider url={'https://picsum.photos/v2/list'}/> */}
       {/* <LoadMore/> */}
-      <TreeView menus={SideMenu}/>
+      {/* <TreeView menus={SideMenu}/> */}
+      <QRGenerator/>
 
     </div>
   )
